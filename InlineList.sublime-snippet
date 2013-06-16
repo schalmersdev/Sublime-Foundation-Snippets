@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<ul class="inline-list">
+  <li><a href="#">${1:Link 1}</a></li>
+  <li><a href="#">${1:Link 1}</a></li>
+  <li><a href="#">${1:Link 1}</a></li>
+  <li><a href="#">${1:Link 1}</a></li>
+  <li><a href="#">${1:Link 1}</a></li>
+</ul>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>zlst</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

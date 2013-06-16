@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[<% 5.times do |num| %>
+  <article>
+    <div class="row">
+      <div class="small-3 columns">
+        <img src="<%= lorem.image('100x60') %>" alt="lorem" />
+      </div>
+      <div class="small-9 columns">
+        <small><%= lorem.date %></small>
+        <h5><a href="#"><%= lorem.words 4 %></a></h5>
+        <p><%= lorem.sentences 2 %></p>
+      </div>
+    </div>
+  </article>
+  <hr />
+  <% end %>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>zlst</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

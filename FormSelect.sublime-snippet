@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+      <label for="customDropdown1">Medium Example</label>
+      <select id="customDropdown1" class="medium">
+        <option DISABLED>This is a dropdown</option>
+        <option>This is another option</option>
+        <option>This is another option too</option>
+        <option>Look, a third option</option>
+      </select>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>zfrm</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

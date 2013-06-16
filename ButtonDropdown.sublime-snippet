@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<a href="#" class="button dropdown" data-dropdown="drop1">Has Dropdown</a>
+
+<ul id="drop1" class="f-dropdown" data-dropdown-content>
+	<li><a href="#">This is a link</a></li>
+	<li><a href="#">This is another</a></li>
+	<li><a href="#">Yet another</a></li>
+</ul>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>zbtn</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,76 @@
+<snippet>
+	<content><![CDATA[
+<nav class="top-bar">
+  <ul class="title-area">
+    <!-- Title Area -->
+    <li class="name">
+      <h1><a href="/">Top Bar</a></h1>
+    </li>
+    <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+    <li class="toggle-topbar"><a href="#"><span>Menu</span> &equiv;</a></li>
+  </ul>
+
+  <section class="top-bar-section">
+    <ul class="left">
+      <li class="divider"></li>
+      <li class="has-dropdown"><a href="/grid.php">Item 1</a>
+
+        <ul class="dropdown">
+          <li><em class="label">Level One</em></li>
+          <li><a href="#">Sub-item 1</a></li>
+          <li><a href="#">Sub-item 2</a></li>
+          <li class="divider"></li>
+          <li><a href="#">Sub-item 3</a></li>
+          <li class="has-dropdown"><a href="#">Sub-item 4</a>
+
+            <ul class="dropdown">
+              <li><em class="label">Level Two</em></li>
+              <li class="has-dropdown"><a href="#">Sub-item 1</a>
+
+                <ul class="dropdown">
+                  <li><em class="label">Level Three</em></li>
+                  <li class="has-dropdown"><a href="#">Sub-item 1</a>
+
+                    <ul class="dropdown">
+                      <li><em class="label">Level Four</em></li>
+                      <li><a href="#">Sub-item 1</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Sub-item 2</a></li>
+                  <li><a href="#">Sub-item 3</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Sub-item 4</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Sub-item 2</a></li>
+              <li><a href="#">Sub-item 3</a></li>
+              <li><a href="#">Sub-item 4</a>
+              </ul>
+            </li>
+            <li><a href="#">Sub-item 5</a></li>
+          </ul>
+        </li>
+        <li class="divider"></li>
+        <li><a href="/grid.php">Item 2</a></li>
+        <li class="divider"></li>
+        <li><a href="/grid.php">Item 3</a></li>
+        <li class="divider"></li>
+        <li><a href="/grid.php">Item 4</a></li>
+        <li class="divider"></li>
+        <li><a href="/grid.php">Item 5</a></li>
+        <li class="divider"></li>
+      </ul>
+      <!-- Right Nav Section -->
+   <!--  <ul class="right">
+      <li class="divider hide-for-small"></li>
+      <li><a href="#">Item 2</a></li>
+    </ul> -->
+  </section>
+</nav>
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ztop</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<ul class="button-group">
+  <li><a href="#" class="small button">Button 1</a></li>
+  <li><a href="#" class="small button">Button 2</a></li>
+  <li><a href="#" class="small button">Button 3</a></li>
+</ul>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>zbtn</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

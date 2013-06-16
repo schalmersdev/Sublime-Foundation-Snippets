@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+<a href="#" class="button" data-dropdown="drop2">Has Content Dropdown</a>
+
+<div id="drop2" class="f-dropdown content medium" data-dropdown-content>
+  <h4>Title</h4>
+  <p>Some text that people will think is awesome! Some text that people will think is awesome! Some text that people will think is awesome!</p>
+  <p><img src="<%= lorem.image('400x240') %>" alt="lorem" /></p>
+  <p><a href="#" class="button">Button</a></p>
+</div>
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>zdrp</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

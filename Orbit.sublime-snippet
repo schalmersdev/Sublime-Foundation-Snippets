@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+<ul class="orbit" data-orbit>
+  <li>
+    <img src="http://placehold.it/720x350" alt="Lorem" />
+    <div class="orbit-caption">Caption 1</div>
+  </li>
+  <li>
+    <img src="http://placehold.it/720x350" alt="Lorem" />
+    <div class="orbit-caption">Caption 2</div>
+  </li>
+  <li>
+    <img src="http://placehold.it/720x350" alt="Lorem" />
+    <div class="orbit-caption">Caption 3</div>
+  </li>
+</ul>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>zorb</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

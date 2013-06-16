@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+<!-- Default switch -->
+<div class="switch">
+  <input id="x" name="switch-x" type="radio" checked>
+  <label for="x" onclick="">Off</label>
+
+  <input id="x1" name="switch-x" type="radio">
+  <label for="x1" onclick="">On</label>
+
+  <span></span>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>zfrm</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

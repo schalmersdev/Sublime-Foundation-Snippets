@@ -1,0 +1,51 @@
+<snippet>
+	<content><![CDATA[
+<!--each for requires a class called form-correction as this is a styling hook that allows us to not style based off "form" itelf which has issues when using .net and the wrapped form element for asp.net form. You may also need to change the form tag to be a div. ie. <div class="form-correction"... Using MVC you will not have this issue however-->
+<form class="form-correction">
+  <fieldset>
+    <legend>Fieldset</legend>
+
+    <div class="row">
+      <div class="large-12 columns">
+        <label for="input0">Input Label</label>
+        <input id="input0" type="text" placeholder="large-12.columns">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="large-4 columns">
+        <label for="input1">Input Label</label>
+        <input type="text" id="input1" placeholder="large-4.columns">
+      </div>
+      <div class="large-4 columns">
+        <label for="input2">Input Label</label>
+        <input type="text" id="input2" placeholder="large-4.columns">
+      </div>
+      <div class="large-4 columns">
+        <div class="row collapse">
+          <label for="input3">Input Label</label>
+          <div class="small-9 columns">
+            <input type="text" id="input3" placeholder="small-9.columns">
+          </div>
+          <div class="small-3 columns">
+            <span class="postfix">.com</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="large-12 columns">
+        <label for="input4">Textarea Label</label>
+        <textarea id="input4" placeholder="small-12.columns"></textarea>
+      </div>
+    </div>
+
+  </fieldset>
+</form>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>zfrm</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

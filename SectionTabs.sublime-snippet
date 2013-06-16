@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+<div class="section-container tabs" data-section="tabs">
+  <section class="section">
+    <p class="title"><a href="#">Section 1</a></p>
+    <div class="content">
+      <p>Content of section 1.</p>
+    </div>
+  </section>
+  <section class="section">
+    <p class="title"><a href="#">Section 2</a></p>
+    <div class="content">
+      <p>Content of section 2.</p>
+    </div>
+  </section>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>zsec</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

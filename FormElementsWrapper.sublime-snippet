@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<!--each for requires a class called form-correction as this is a styling hook that allows us to not style based off "form" itelf which has issues when using .net and the wrapped form element for asp.net form. You may also need to change the form tag to be a div. ie. <div class="form-correction"... Using MVC you will not have this issue however-->
+<form class="form-correction">
+	<div class="large-4 columns">
+$1
+    </div>
+</form>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>zfrm</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

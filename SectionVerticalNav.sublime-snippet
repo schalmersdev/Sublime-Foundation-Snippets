@@ -1,0 +1,41 @@
+<snippet>
+	<content><![CDATA[
+<div class="row">
+  <div class="large-3 columns">
+    <div class="section-container vertical-nav" data-section="vertical-nav">
+      <section class="section">
+        <p class="title"><a href="#">Section 1</a></p>
+        <div class="content">
+          <ul class="side-nav">
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Link 1</a></li>
+          </ul>
+        </div>
+      </section>
+      <section class="section">
+        <p class="title"><a href="#">Section 2</a></p>
+        <div class="content">
+          <ul class="side-nav">
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Link 1</a></li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </div>
+  <div class="large-9 columns">
+    <p>Content to the right of the navigation.</p>
+  </div>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>zsec</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

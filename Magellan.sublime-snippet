@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+<div data-magellan-expedition="fixed">
+  <dl class="sub-nav">
+    <dd data-magellan-arrival="build"><a href="#build">Build with HTML</a></dd>
+    <dd data-magellan-arrival="js"><a href="#js">Arrival 2</a></dd>
+  </dl>
+</div>
+
+<div data-magellan-expedition="fixed">
+  <ul class="sub-nav">
+    <li data-magellan-arrival="build"><a href="#build">Build with HTML</a></li>
+    <li data-magellan-arrival="js"><a href="#js">Arrival 2</a></li>
+  </ul>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>zmag</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

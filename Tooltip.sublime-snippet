@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<span data-tooltip class="has-tip" title="Tooltips are awesome, you should totally use them!">Lorem</span>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ztoo</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

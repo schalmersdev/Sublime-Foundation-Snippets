@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+<% content_for :head do %>
+  <title>Place page title here</title>
+<% end %>
+
+<% content_for :foot do %><% end %>
+
+<!--Begin Main Content -->
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>znew</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
