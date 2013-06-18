@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[ @media #{$small} { 
+	<content><![CDATA[ @include respond-to($small-screen) { 
 ${1:this}}.
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
