@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+<ul class="small-block-grid-2 large-block-grid-4">
+  <li><img src="../img/demos/demo1.png"></li>
+  <li><img src="../img/demos/demo2.png"></li>
+  <li><img src="../img/demos/demo3.png"></li>
+  <li><img src="../img/demos/demo4.png"></li>
+</ul>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>zblo</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
