@@ -1,10 +1,10 @@
 <snippet>
   <content><![CDATA[
 <ul class="small-block-grid-2">
-  <li><img src="http://placehold.it/4000x350" alt="Lorem" /></li>
-  <li><img src="http://placehold.it/4000x350" alt="Lorem" /></li>
-  <li><img src="http://placehold.it/4000x350" alt="Lorem" /></li>
-  <li><img src="http://placehold.it/4000x350" alt="Lorem" /></li>
+  <li><img src="http://placehold.it/400x350" alt="Lorem" /></li>
+  <li><img src="http://placehold.it/400x350" alt="Lorem" /></li>
+  <li><img src="http://placehold.it/400x350" alt="Lorem" /></li>
+  <li><img src="http://placehold.it/400x350" alt="Lorem" /></li>
 </ul>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
